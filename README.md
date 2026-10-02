@@ -103,16 +103,3 @@ cd mobile
 npm install
 npx expo start          # QR kod ile telefonda aç
 ```
-
-## 🔗 API Endpoint'leri
-
-| Yol | Açıklama |
-|-----|----------|
-| `GET /api/health` | Sunucu ve veritabanı sağlık kontrolü |
-| `POST /api/auth/register` | Yeni hesap oluştur |
-| `POST /api/auth/login` | Giriş yap (token al) |
-| `GET /api/datasets` | Tüm datasetleri listele |
-| `GET /api/reviews?limit=20&offset=0` | Yorumları filtrele ve sayfalama |
-| `GET /api/analysis/dashboard` | Dashboard özet verisi |
-| `GET /api/analysis/topics` | Konu analizi |
-| `GET /api/analysis/sentiment-distribution` | Sentiment dağılımı |
