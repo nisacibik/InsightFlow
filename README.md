@@ -71,3 +71,7 @@ InsightFlow/
 1. **01–05:** Veri inceleme, temizleme, kalite kontrol
 2. **06–09:** Sentiment analizi, NLP, topic modelleme
 3. **10–16:** Veritabanı aktarımı
+
+
+> **Not:** Veri setleri boyut ve gizlilik nedeniyle repoya eklenmemiştir. Pipeline'ı çalıştırmak için kendi veri setinizi `data/raw/` klasörüne koyun.
+
